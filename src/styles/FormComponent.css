@@ -1,0 +1,91 @@
+/* Контейнер формы */
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Заголовок */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Общий стиль формы */
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Группа поля */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Метки */
+  label {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Поля ввода */
+  .form-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+  }
+  
+  /* Ошибочные поля */
+  .input-error {
+    border-color: #e74c3c;
+  }
+  
+  /* Сообщение об ошибке */
+  .error-message {
+    font-size: 0.8rem;
+    color: #e74c3c;
+    margin-top: -5px;
+  }
+  
+  /* Кнопка */
+  .form-button {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Кнопка: наведение */
+  .form-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Кнопка: отключена */
+  .form-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Сообщение об успешной отправке */
+  .success-message {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #27ae60;
+    text-align: center;
+  }
+  
